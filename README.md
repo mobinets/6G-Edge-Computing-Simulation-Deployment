@@ -1,8 +1,8 @@
-# Sim_EdgeGO
+# Simulation for EdgeGO -- A Mobile Resource-sharing Framework for 5G/6G Edge Computing in Massive IoT Systems
 
 # Introduction
 This repo contians the simulation code used in the publication:
-> Cong R, Zhao Z, Min G, et al. EdgeGO: A Mobile Resource-sharing Framework for 6G Edge Computing in Massive IoT Systems[J]. IEEE Internet of Things Journal, 2021.
+> Cong R, Zhao Z, Min G, et al. EdgeGO: A Mobile Resource-sharing Framework for 5G/6G Edge Computing in Massive IoT Systems[J]. IEEE Internet of Things Journal, 2021.
 
 Please copy the following bib info for citations.
 
