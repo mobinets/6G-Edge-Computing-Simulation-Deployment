@@ -15,11 +15,12 @@ Please copy the following bib info for citations.
 }
 
 ## Description
-本代码为上述发表在IOTJ21'论文的仿真代码，该代码仿真了两种不同移动机制下的移动边缘服务架构。
+It is the simulation code used in the work of EdgeGo which has been accepted by IoTJ '21. In this code, we simulate and compare the two mobile frameworks in edge computing.
 * EdgeGO:
-  本论文提出的移动机制，该机制巧妙利用了边缘计算中任务计算和服务器移动可并行性，将计算卸载过程拆分，移动服务器只需在请求上传和结果返回阶段需要覆盖终端节点。上述的移动机制可以大幅缩短任务完成总时延（atom case请见论文Section I)不止一次，访问次数不确定，路径规划更加灵活。
+  This the mobile framework proposed in this work, in which we leverage the parallelism between server movement and task computation and decouple the process of task offloading into request collection, task computation as well as returning result. In this way, servers only need to move to the communication range of IoT nodes for request collection and returning results, instead of staying at place waiting the completion of task processing. Utilizing this pioneering framework, the overall delay of IoT nodes placed in the network will be drastically reduced. However, it also make path planning be more flexible and intractable, due to the uncertainty of visit times.
 * MCloudlets:
-  该代码仿真了现有移动边缘架构中使用服务器移动机制，即，服务器在完成当前范围内所有节点任务后，才可移动到下个节点进行服务，即每个节点只能被访问一次。
+  MCloudlets is the movement scheme of servers in existing mobile edge frameworks. In MCloudlets, network operators also utilize mobile edge servers to serve IoT nodes. However, mobile edge servers (in our simulation we call them "mobile cloudlets") have to move to the next destination until finishing the tasks from IoT devices in current communication range.
 
-上述两种架构的路径规划代码采用的是[2-OPT算法](https://en.wikipedia.org/wiki/2-opt),该算法可在多项式时间内取得TSP问题的近似解。
+Both of these two mobile frameworks optimize the server paths by [the 2-OPT algorithm](https://en.wikipedia.org/wiki/2-opt), which can get the approximate optimal solution of the TSP in polynomial time.
+
   
