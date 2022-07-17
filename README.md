@@ -6,13 +6,13 @@ This repo contians the simulation code used in the publication:
 
 Please copy the following bib info for citations.
 
-> @article{cong2021edgego,
+''' @article{cong2021edgego,
   title={EdgeGO: A Mobile Resource-sharing Framework for 6G Edge Computing in Massive IoT Systems},
   author={Cong, Rong and Zhao, Zhiwei and Min, Geyong and Feng, Chenyuan and Jiang, Yuhong},
   journal={IEEE Internet of Things Journal},
   year={2021},
   publisher={IEEE}
-}
+}'''
 
 ## Description
 It is the simulation code used in the work of EdgeGo which has been accepted by IoTJ '21. In this code, we simulate and compare the two mobile frameworks in edge computing.
